@@ -55,9 +55,9 @@ code, and packages it all up in a single, transferrable bundle
 
 React also has a recommended tool, `create-react-app`, that makes it easy to
 create a new React project from scratch. The `create-react-app` tool sets up
-preconfigured, default, project and more. This package includes functionality
-built to be mobile friendly and progressive. That means apps will work on all
-modern browsers and mobile devices. 
+a preconfigured, default, project, ready to launch with `npm start`. This package
+includes functionality built to be mobile friendly and progressive. That means apps
+will work on all modern browsers and mobile devices. 
 
 React is actively maintained by Facebook, and new features are added regularly!
 Once you have a good grasp on React, you will have the ability to create cutting

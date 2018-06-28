@@ -43,13 +43,13 @@ way, producing highly reusable, independent, chunks.
 React is more than JSX and components - React has a lot going on under the
 hood. Just to briefly touch on some of the cool features, React includes:
 
-- a **virtual DOM** that allows for fast, efficient content rendering. Great for
+- a **virtual DOM**, that allows for fast, efficient, content rendering. Great for
 highly interactive apps
 - a **declarative writing** structure, allowing you to simply express how your app
 should look and let React handle updates and underlying data changes
-- **Babel** an included transpiler that converts modern JavaScript and custom
+- **Babel**: an included transpiler that converts modern JavaScript and custom
 code like JSX into more widely compatible JavaScript
-- **Webpack**, a 'bundler' that takes all our work, along with any required dependency
+- **Webpack**: a 'bundler' that takes all our work, along with any required dependency
 code, and packages it all up in a single, transferrable bundle
 - Built in ESLint functionality to help improve our code
 

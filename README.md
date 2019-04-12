@@ -50,7 +50,7 @@ should look and let React handle updates and underlying data changes
 - **Babel**: an included transpiler that converts modern JavaScript and custom
 code like JSX into more widely compatible JavaScript
 - **Webpack**: a 'bundler' that takes all our work, along with any required dependency
-code, and packages it all up in a single, transferrable bundle
+code, and packages it all up in a single, transferable bundle
 - Built in ESLint functionality to help improve our code
 
 React also has a recommended tool, `create-react-app`, that makes it easy to

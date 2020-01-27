@@ -11,10 +11,8 @@ put their energy and focus towards designing a good experience for end users of
 the application.
 
 The following lessons are all about just one framework, React. Why learn React?
-In the last few years, React has surpassed other frameworks in popularity and
-demand. For good reason, too! In this lesson, we will discuss what React is and
-why it is so awesome and useful.
-
+[In the last few years, React has surpassed other frameworks in popularity and
+demand](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190). For good reason, too! In this lesson, we will discuss what React is and why it is so awesome and useful.
 
 ## Objectives
 
@@ -25,8 +23,8 @@ why it is so awesome and useful.
 ## What is React?
 
 The React framework is built entirely out of JavaScript, using a combination of
-dependencies. Using React might seem significantly different than what you're
-used to when writing JavaScript from scratch. This is because React provides a
+dependencies. Using React might seem significantly different to what you're
+used to when writing vanilla JavaScript (or, in other words, just JavaScript). This is because React provides a
 specific way to organize and structure the design of a web application.
 
 Using JSX, an extension of vanilla JavaScript with a specific syntax, we can
@@ -44,14 +42,14 @@ React is more than JSX and components - React has a lot going on under the
 hood. Just to briefly touch on some of the cool features, React includes:
 
 - a **virtual DOM**, that allows for fast, efficient, content rendering. Great for
-highly interactive apps
+highly interactive apps;
 - a **declarative writing** structure, allowing you to simply express how your app
-should look and let React handle updates and underlying data changes
+should look and let React handle updates and underlying data changes;
 - **Babel**: an included transpiler that converts modern JavaScript and custom
-code like JSX into more widely compatible JavaScript
+code like JSX into more widely compatible JavaScript;
 - **Webpack**: a 'bundler' that takes all our work, along with any required dependency
 code, and packages it all up in a single, transferable bundle
-- Built in ESLint functionality to help improve our code
+- Built in ESLint functionality to help improve our code;
 
 React also has a recommended tool, `create-react-app`, that makes it easy to
 create a new React project from scratch. The `create-react-app` tool sets up
@@ -59,10 +57,7 @@ a preconfigured, default, project, ready to launch with `npm start`. This packag
 includes functionality built to be mobile friendly and progressive. That means apps
 will work on all modern browsers and mobile devices. 
 
-React is actively maintained by Facebook, and new features are added regularly!
-Once you have a good grasp on React, you will have the ability to create cutting
-edge web applications and sites. Knowing React also opens doors to similar
-frameworks, such as React Native for building mobile apps.
+React is actively maintained by Facebook, and new features are added regularly! Their [docs](https://reactjs.org/) are well-written and translated into many languages. Once you have a good grasp on React, you will have the ability to create cutting-edge web applications and sites. Knowing React also opens doors to similar frameworks, such as React Native for building mobile apps.
 
 
 ## Conclusion

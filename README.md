@@ -45,17 +45,20 @@ hood. Just to briefly touch on some of the cool features, React includes:
 highly interactive apps;
 - a **declarative writing** structure, allowing you to simply express how your app
 should look and let React handle updates and underlying data changes;
-- **Babel**: an included transpiler that converts modern JavaScript and custom
-code like JSX into more widely compatible JavaScript;
-- **Webpack**: a 'bundler' that takes all our work, along with any required dependency
-code, and packages it all up in a single, transferable bundle
-- Built in ESLint functionality to help improve our code;
+- a large **open source ecosystem**, with thousands of packages developed by the community
 
 React also has a recommended tool, `create-react-app`, that makes it easy to
 create a new React project from scratch. The `create-react-app` tool sets up
 a preconfigured, default, project, ready to launch with `npm start`. This package
 includes functionality built to be mobile friendly and progressive. That means apps
-will work on all modern browsers and mobile devices. 
+will work on all modern browsers and mobile devices. `create-react-app` also gives us 
+a couple of additional tools to make React development better:
+
+- **Babel**: an included transpiler that converts modern JavaScript and custom
+code like JSX into more widely compatible JavaScript;
+- **Webpack**: a 'bundler' that takes all our work, along with any required dependency
+code, and packages it all up in a single, transferable bundle
+- Built in ESLint functionality to help improve our code;
 
 React is actively maintained by Facebook, and new features are added regularly! Their [docs](https://reactjs.org/) are well-written and translated into many languages. Once you have a good grasp on React, you will have the ability to create cutting-edge web applications and sites. Knowing React also opens doors to similar frameworks, such as React Native for building mobile apps.
 

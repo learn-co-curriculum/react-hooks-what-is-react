@@ -103,7 +103,7 @@ blocks of our web page that handle their own data and UI logic, that can be
 
 For instance, here's how we could design a site like Yelp by thinking in components:
 
-![yelp website showing components](images/yelp-components.png)
+![yelp website showing components](https://curriculum-content.s3.amazonaws.com/react/yelp-components.png)
 
 And here's how it might translate to our code in React:
 

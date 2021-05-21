@@ -1,13 +1,18 @@
 # What is React?
 
-## Overview
+## Learning Goals
 
-In the world of web development, there are a number of hip names tossed around -
-Angular, Vue, React. These are some of the front end frameworks that have gained
-popularity over the last few years. These frameworks provide a standardized way
-of creating and deploying parts of web applications. This allows developers to
-put their energy and focus towards designing a good experience for end users of
-the application.
+- Understand React framework at a high level
+- Explain some of the benefits of using React when developing web applications
+
+## Why Learn React?
+
+In the world of web development, there are a number of hip names tossed around
+&mdash; Angular, Vue, React. These are some of the front end frameworks that
+have gained popularity over the last few years. These frameworks provide a
+standardized way of creating and deploying parts of web applications. This
+allows developers to put their energy and focus towards designing a good
+experience for end users of the application.
 
 The following lessons are all about just one framework, React. Why learn React?
 [In the last few years, React has surpassed other frameworks in popularity and
@@ -15,12 +20,7 @@ demand](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190). For
 good reason, too! In this lesson, we will discuss what React is and why it is so
 awesome and useful.
 
-## Objectives
-
-- Introduce the React framework at a high level
-- Explain some of the benefits of using React when developing web applications
-
-## What is React?
+## React Overview
 
 The React framework is built entirely out of JavaScript, using a combination of
 dependencies. Using React might seem significantly different to what you're used
@@ -38,12 +38,11 @@ way, producing highly reusable, independent, chunks.
 
 ## Some of the Awesome Features of React
 
-From the [React docs][], here are three of the key features
-of React:
+From the [React docs][], here are three of the key features of React:
 
-- Declarative
-- Component-Based
-- Learn Once, Write Anywhere
+- **Declarative**
+- **Component-Based**
+- **Learn Once, Write Anywhere**
 
 Let's dig into each of these features and talk a bit more about each one.
 
@@ -59,10 +58,12 @@ programming before. Here are some quick definitions:
 
 **Declarative Programming:**
 
-- Describes _what_ a program should accomplish (or what the end result should be)
+- Describes _what_ a program should accomplish (or what the end result should
+  be)
 - Leaves the determination of _how_ to get to the end result up to the program
 
-Creating DOM elements without a framework like React tends to be a very **imperative** operation:
+Creating DOM elements without a framework like React tends to be a very
+**imperative** operation:
 
 ```js
 const header = document.createElement("h1");
@@ -74,8 +75,8 @@ container.append(header);
 ```
 
 React, however, encourages a **declarative** approach to working with the DOM.
-In our code below (which is a special JSX format that React uses -- more on that
-later!), we don't describe _how_ to update the browser (i.e. "remove that
+In our code below (which is a special JSX format that React uses &mdash; more on
+that later!), we don't describe _how_ to update the browser (i.e. "remove that
 `<div>`, add this `<li>`, etc."). Instead, we provide React with a template of
 _what_ the component should look like once it is finished being prepared, i.e.:
 
@@ -101,7 +102,8 @@ React encourages us to structure our applications as "components": the building
 blocks of our web page that handle their own data and UI logic, that can be
 "composed" together with other components to put together a complete app.
 
-For instance, here's how we could design a site like Yelp by thinking in components:
+For instance, here's how we could design a site like Yelp by thinking in
+components:
 
 ![yelp website showing components](https://curriculum-content.s3.amazonaws.com/react/yelp-components.png)
 
@@ -130,25 +132,28 @@ more easily put together complex UIs by thinking about each piece in isolation.
 We won't be taking advantage of this feature of React as much during your time
 at Flatiron, but one great thing about React is that it works in a few different
 environments. Once you learn the key concepts of working with React to create
-client-side web applications, you can also more easily learn React Native and
-write native mobile apps using React, or use tools like Next.js and Gatsby to
-write server-rendered React!
+client-side web applications, you can also more easily learn
+[React Native][react native] and write native mobile apps using React, or use
+tools like [Next.js][next-js] and [Gatsby][gatsby-js] to write server-rendered
+React.
 
 ## Writing React Projects
 
-React has a recommended tool, `create-react-app`, that makes it easy to create a
-new React project from scratch. The `create-react-app` tool sets up a
-preconfigured, default, project, ready to launch with `npm start`. This package
-includes functionality built to be mobile friendly and progressive. That means
-apps will work on all modern browsers and mobile devices. `create-react-app`
-also gives us a couple of additional tools to make React development better:
+React has a recommended tool, [`create-react-app`][create-react-app], that makes
+it easy to create a new React project from scratch. The `create-react-app` tool
+sets up a preconfigured, default, project, ready to launch with `npm start`.
+This package includes functionality built to be mobile friendly and progressive.
+That means apps will work on all modern browsers and mobile devices.
+`create-react-app` also gives us a couple of additional tools to make React
+development better:
 
-- **Babel**: an included transpiler that converts modern JavaScript and custom
-  code like JSX into more widely compatible JavaScript
-- **Webpack**: a 'bundler' that takes all our work, along with any required
-  dependency code, and packages it all up in a single, transferable bundle
-- Built in **ESLint** functionality to help improve our code; reinforce best
-  practices; and catch common mistakes.
+- [**Babel**][babel]: an included transpiler that converts modern JavaScript and
+  custom code like JSX into more widely compatible JavaScript
+- [**webpack**][webpack]: a 'bundler' that takes all our work, along with any
+  required dependency code, and packages it all up in a single, transferable
+  bundle
+- Built in linting and code analysis functionality using [**ESLint**][eslint] to
+  help improve our code; reinforce best practices; and catch common mistakes.
 
 React is actively maintained by Facebook, and new features are added regularly!
 Their [docs](https://reactjs.org/) are well-written and translated into many
@@ -158,10 +163,10 @@ to similar frameworks, such as React Native for building mobile apps.
 
 ## Conclusion
 
-You can imagine a framework is like a car - while it is interesting and useful
-to know how the engine works or how to fix a transmission, it isn't necessary
-for using the car to get where you want to go. What is necessary is that you
-understand how to use the pedals, turn the wheel and change gears.
+You can imagine a framework is like a car &mdash; while it is interesting and
+useful to know how the engine works or how to fix a transmission, it isn't
+necessary for using the car to get where you want to go. What is necessary is
+that you understand how to use the pedals, turn the wheel and change gears.
 
 First, we will be covering what you need to know to use React. Later, we'll go
 into more detail on the critical parts: the engine under the hood. By the end,
@@ -170,5 +175,13 @@ you will be able to quickly design and create your own React apps!
 ## Resources
 
 - [React Docs][]
+- [React Docs with Hooks](https://reactwithhooks.netlify.app/)
 
 [react docs]: https://reactjs.org/
+[react native]: https://reactnative.dev/
+[gatsby-js]: https://www.gatsbyjs.com/docs/
+[next-js]: https://nextjs.org/
+[create-react-app]: https://create-react-app.dev/
+[babel]: https://babeljs.io/
+[webpack]: https://webpack.js.org/
+[eslint]: https://eslint.org/

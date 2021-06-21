@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Understand React framework at a high level
+- Understand React at a high level
 - Explain some of the benefits of using React when developing web applications
 
 ## Why Learn React?
@@ -20,9 +20,13 @@ demand](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190). For
 good reason, too! In this lesson, we will discuss what React is and why it is so
 awesome and useful.
 
+## A Quick Note on React
+
+Before we move on, it is important to note one thing - React is technically a library, not a framework. This is a big topic of debate; with one side standing by the technical definitions of frameworks and libraries, and the other arguing that despite this, React does essentially the same things (and arguably better) than the other two main JS frameworks, so most people just stick to calling it a framework. Regardless if you call React a library or a framework one fact is not up for debate: React allows developers to build large, scalable applications, quickly and painlessly.
+
 ## React Overview
 
-The React framework is built entirely out of JavaScript, using a combination of
+React is built entirely out of JavaScript, using a combination of
 dependencies. Using React might seem significantly different to what you're used
 to when writing vanilla JavaScript (or, in other words, just JavaScript). This
 is because React provides a specific way to organize and structure the design of

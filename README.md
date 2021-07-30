@@ -8,7 +8,7 @@
 ## Why Learn React?
 
 In the world of web development, there are a number of hip names tossed around
-&mdash; Angular, Vue, React. These are some of the front end frameworks that
+— Angular, Vue, React. These are some of the front end frameworks that
 have gained popularity over the last few years. These frameworks provide a
 standardized way of creating and deploying parts of web applications. This
 allows developers to put their energy and focus towards designing a good
@@ -79,7 +79,7 @@ container.append(header);
 ```
 
 React, however, encourages a **declarative** approach to working with the DOM.
-In our code below (which is a special JSX format that React uses &mdash; more on
+In our code below (which is a special JSX format that React uses — more on
 that later!), we don't describe _how_ to update the browser (i.e. "remove that
 `<div>`, add this `<li>`, etc."). Instead, we provide React with a template of
 _what_ the component should look like once it is finished being prepared, i.e.:
@@ -167,7 +167,7 @@ to similar frameworks, such as React Native for building mobile apps.
 
 ## Conclusion
 
-You can imagine a framework is like a car &mdash; while it is interesting and
+You can imagine a framework is like a car — while it is interesting and
 useful to know how the engine works or how to fix a transmission, it isn't
 necessary for using the car to get where you want to go. What is necessary is
 that you understand how to use the pedals, turn the wheel and change gears.

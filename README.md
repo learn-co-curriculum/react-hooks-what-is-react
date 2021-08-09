@@ -5,7 +5,7 @@
 - Understand React at a high level
 - Explain some of the benefits of using React when developing web applications
 
-## Why Learn React?
+## Introduction
 
 In the world of web development, there are a number of hip names tossed around
 — Angular, Vue, React. These are some of the front end frameworks that
@@ -22,22 +22,28 @@ awesome and useful.
 
 ## A Quick Note on React
 
-Before we move on, it is important to note one thing - React is technically a library, not a framework. This is a big topic of debate; with one side standing by the technical definitions of frameworks and libraries, and the other arguing that despite this, React does essentially the same things (and arguably better) than the other two main JS frameworks, so most people just stick to calling it a framework. Regardless if you call React a library or a framework one fact is not up for debate: React allows developers to build large, scalable applications, quickly and painlessly.
+Before we move on, it is important to note one thing: React is technically a
+library, not a framework. This is a big topic of debate, with one side standing
+by the technical definitions of frameworks and libraries, and the other arguing
+that React does essentially the same things as the other two main JS frameworks
+(and arguably better). Most people just stick to calling it a framework, but
+regardless of which term you use, one fact is not up for debate: React allows
+developers to build large, scalable applications, quickly and painlessly.
 
 ## React Overview
 
-React is built entirely out of JavaScript, using a combination of
-dependencies. Using React might seem significantly different to what you're used
-to when writing vanilla JavaScript (or, in other words, just JavaScript). This
-is because React provides a specific way to organize and structure the design of
-a web application.
+React is built entirely out of JavaScript, using a combination of dependencies.
+Using React might seem significantly different from what you're used to when
+writing vanilla JavaScript (or, in other words, just JavaScript). This is
+because React provides a specific way to organize and structure the design of a
+web application.
 
 Using JSX, an extension of vanilla JavaScript with a specific syntax, we can
 write code that looks very similar to HTML. Snippets of this JSX get separated
 out into components, sort of like building blocks.
 
-When combined, these components form a fully working web application. These
-components let us separate code and functionality in a logical and easy to read
+When combined, these components form a fully working web application. The use of
+components lets us separate code and functionality in a logical and easy to read
 way, producing highly reusable, independent, chunks.
 
 ## Some of the Awesome Features of React
@@ -100,11 +106,12 @@ something changed, nor did we tell it how to go about changing the DOM. This is
 perfectly acceptable for React! As we explore more going forward, we will see
 how this code acts as a template and React does the rest.
 
-### Component Based
+### Component-Based
 
-React encourages us to structure our applications as "components": the building
-blocks of our web page that handle their own data and UI logic, that can be
-"composed" together with other components to put together a complete app.
+React encourages us to structure our applications as "components": building
+blocks of our web page that handle their own data and UI logic. Individual
+components can be "composed" together with other components to put together a
+complete app.
 
 For instance, here's how we could design a site like Yelp by thinking in
 components:
@@ -145,7 +152,7 @@ React.
 
 React has a recommended tool, [`create-react-app`][create-react-app], that makes
 it easy to create a new React project from scratch. The `create-react-app` tool
-sets up a preconfigured, default, project, ready to launch with `npm start`.
+sets up a preconfigured, default project, ready to launch with `npm start`.
 This package includes functionality built to be mobile friendly and progressive.
 That means apps will work on all modern browsers and mobile devices.
 `create-react-app` also gives us a couple of additional tools to make React
@@ -157,18 +164,19 @@ development better:
   required dependency code, and packages it all up in a single, transferable
   bundle
 - Built in linting and code analysis functionality using [**ESLint**][eslint] to
-  help improve our code; reinforce best practices; and catch common mistakes.
+  help improve our code, reinforce best practices and catch common mistakes.
 
 React is actively maintained by Facebook, and new features are added regularly!
-Their [docs](https://reactjs.org/) are well-written and translated into many
-languages. Once you have a good grasp on React, you will have the ability to
-create cutting-edge web applications and sites. Knowing React also opens doors
-to similar frameworks, such as React Native for building mobile apps.
+The [React docs](https://reactjs.org/) are well-written and translated into many
+languages. Once you have a good grasp of React, you will have the ability to
+create cutting-edge web applications and sites. Knowing how to use React also
+opens doors to similar frameworks, such as React Native for building mobile
+apps.
 
 ## Conclusion
 
-You can imagine a framework is like a car — while it is interesting and
-useful to know how the engine works or how to fix a transmission, it isn't
+You can imagine a framework is like a car — while it is interesting and useful
+to know how the engine works or how to fix a transmission, that knowledge isn't
 necessary for using the car to get where you want to go. What is necessary is
 that you understand how to use the pedals, turn the wheel and change gears.
 

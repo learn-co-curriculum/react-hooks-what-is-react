@@ -7,18 +7,20 @@
 
 ## Introduction
 
-In the world of web development, there are a number of hip names tossed around
-— Angular, Vue, React. These are some of the front end frameworks that
-have gained popularity over the last few years. These frameworks provide a
-standardized way of creating and deploying parts of web applications. This
-allows developers to put their energy and focus towards designing a good
-experience for end users of the application.
+In the world of web development, there are a number of hip names tossed around —
+Angular, Vue, React. These are some of the front end frameworks that have gained
+popularity over the last few years. These frameworks provide a standardized way
+of creating and deploying parts of web applications. This allows developers to
+put their energy and focus towards designing a good experience for end users of
+the application.
 
 The following lessons are all about just one framework, React. Why learn React?
-[In the last few years, React has surpassed other frameworks in popularity and
-demand](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190). For
-good reason, too! In this lesson, we will discuss what React is and why it is so
-awesome and useful.
+In the last few years, [React has surpassed other frameworks in popularity and
+demand][react popularity]. For good reason, too! In this lesson, we will discuss
+what React is and why it is so awesome and useful.
+
+[react popularity]:
+  https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190
 
 ## A Quick Note on React
 
@@ -85,8 +87,8 @@ container.append(header);
 ```
 
 React, however, encourages a **declarative** approach to working with the DOM.
-In our code below (which is a special JSX format that React uses — more on
-that later!), we don't describe _how_ to update the browser (i.e. "remove that
+In our code below (which is a special JSX format that React uses — more on that
+later!), we don't describe _how_ to update the browser (i.e. "remove that
 `<div>`, add this `<li>`, etc."). Instead, we provide React with a template of
 _what_ the component should look like once it is finished being prepared, i.e.:
 
@@ -143,18 +145,17 @@ more easily put together complex UIs by thinking about each piece in isolation.
 We won't be taking advantage of this feature of React as much during your time
 at Flatiron, but one great thing about React is that it works in a few different
 environments. Once you learn the key concepts of working with React to create
-client-side web applications, you can also more easily learn
-[React Native][react native] and write native mobile apps using React, or use
-tools like [Next.js][next-js] and [Gatsby][gatsby-js] to write server-rendered
-React.
+client-side web applications, you can also more easily learn [React
+Native][react native] and write native mobile apps using React, or use tools
+like [Next.js][next-js] and [Gatsby][gatsby-js] to write server-rendered React.
 
 ## Writing React Projects
 
 React has a recommended tool, [`create-react-app`][create-react-app], that makes
 it easy to create a new React project from scratch. The `create-react-app` tool
-sets up a preconfigured, default project, ready to launch with `npm start`.
-This package includes functionality built to be mobile friendly and progressive.
-That means apps will work on all modern browsers and mobile devices.
+sets up a preconfigured, default project, ready to launch with `npm start`. This
+package includes functionality built to be mobile friendly and progressive. That
+means apps will work on all modern browsers and mobile devices.
 `create-react-app` also gives us a couple of additional tools to make React
 development better:
 
@@ -173,6 +174,12 @@ create cutting-edge web applications and sites. Knowing how to use React also
 opens doors to similar frameworks, such as React Native for building mobile
 apps.
 
+> **Note**: While the link above to the current React docs is an excellent
+> resource, the React team recently released a [beta version of their new
+> documentation][beta docs]. The new docs are not yet complete, but they're
+> another great resource to learn about the latest React features and best
+> practices.
+
 ## Conclusion
 
 You can imagine a framework is like a car — while it is interesting and useful
@@ -186,10 +193,11 @@ you will be able to quickly design and create your own React apps!
 
 ## Resources
 
-- [React Docs][]
-- [React Docs with Hooks](https://reactwithhooks.netlify.app/)
+- [React Docs (current)][react docs]
+- [React Docs (beta)][beta docs]
 
 [react docs]: https://reactjs.org/
+[beta docs]: https://beta.reactjs.org/
 [react native]: https://reactnative.dev/
 [gatsby-js]: https://www.gatsbyjs.com/docs/
 [next-js]: https://nextjs.org/
